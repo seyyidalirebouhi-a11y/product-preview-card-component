@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- link style -->
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 0.6875rem;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="section-1">
+      <div class="box">
+        <div class="image">
+<picture class="recipe-image">
+  <!-- صورة الهاتف: تظهر على الشاشات التي عرضها 768px أو أقل -->
+  <source media="(max-width:900px )" srcset="./images/image-product-mobile.jpg">
+  
+  <!-- صورة الحاسوب الافتراضية: تظهر للشاشات الأكبر من 768px -->
+  <img src="./images/image-product-desktop.jpg" alt="Simple Omelette">
+</picture>
+        </div>
+        <div class="text">
+          <h3> Perfume </h3>
+          <h1> Gabrielle Essence Eau De Parfum </h1>
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+          <p class="add"> $149.99 <span> $169.99</span></p>
+          <a href=""> <img src="./images/icon-cart.svg" alt=""> Add to Cart </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+
+</html>
